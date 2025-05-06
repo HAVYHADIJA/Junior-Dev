@@ -31,6 +31,11 @@ console.log(numbers);
 console.log(numbers[0]);
 
 //fumctions
+function greet(name) {
+    console.log("Hello " + name);
+}
+greet("Havy");
+greet("Nakalyowa");
 
 
 
