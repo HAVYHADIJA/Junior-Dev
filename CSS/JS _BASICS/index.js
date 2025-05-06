@@ -36,6 +36,10 @@ function greet(name) {
 }
 greet("Havy");
 greet("Nakalyowa");
+//types of functions
+
+
+
 
 
 
