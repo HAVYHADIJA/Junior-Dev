@@ -30,12 +30,25 @@ console.log(numbers);
 //accessing array elements
 console.log(numbers[0]);
 
-//fumctions
+//functions
 function greet(name) {
     console.log("Hello " + name);
 }
 greet("Havy");
 greet("Nakalyowa");
+//function expression
+function calculateShippingCost(){
+    let totalPrice =19;
+    if (totalPrice <= 10) {
+        shippingCost = 5
+    } else if (totalPrice <= 30) {
+        shippingCost = 3
+    }else {
+        shippingCost = 0
+    }
+    return shippingCost
+}
+
 //operators
 //arithmetic operators
 let a = 10;
