@@ -36,7 +36,35 @@ function greet(name) {
 }
 greet("Havy");
 greet("Nakalyowa");
-//types of functions
+//operators
+//arithmetic operators
+let a = 10;
+let b = 5;
+let sum = a + b;
+let difference = a - b;
+let product = a * b;
+let quotient = a / b;
+let remainder = a % b;
+
+console.log("Sum: " + sum);
+console.log("Difference: " + difference);
+console.log("Product: " + product);
+console.log("Quotient: " + quotient);
+console.log("Remainder: " + remainder);
+//increment and decrement operators
+let x = 10;
+x++; //increment
+console.log(x); //11
+x--; //decrement
+console.log(x); //10
+//comparison operators
+let y = 10;
+let z = 5;
+console.log(y == z); //false
+console.log(y != z); //true
+console.log(y > z); //true
+console.log(y < z); //false
+
 
 
 
