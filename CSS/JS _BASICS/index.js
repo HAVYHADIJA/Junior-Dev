@@ -76,6 +76,13 @@ else if (totalMarks >= 80) {
 else  (totalMarks <= 70) {
     console.log("Grade C");
 }
+//logical operators
+let isStudent1 = true;
+let isEmployed = false;
+
+console.log(isStudent1 && isEmployed); //false //both of them have to be true
+console.log(isStudent1 || isEmployed); //true //one of them has to be true
+
 
 
 
