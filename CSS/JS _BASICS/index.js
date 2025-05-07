@@ -65,6 +65,19 @@ console.log(y != z); //true
 console.log(y > z); //true
 console.log(y < z); //false
 
+// Conditional Statements
+let totalMarks = 85;
+if (totalMarks >= 90) {
+    console.log("Grade A");
+}
+else if (totalMarks >= 80) {
+    console.log("Grade B");
+}
+else  (totalMarks <= 70) {
+    console.log("Grade C");
+}
+
+
 
 
 
