@@ -47,7 +47,6 @@ function calculateShippingCost() {
         shippingCost = 0
     }
     return shippingCost
-
 }
 
 //operators
@@ -87,9 +86,10 @@ if (totalMarks >= 90) {
 else if (totalMarks >= 80) {
     console.log("Grade B");
 }
-else (totalMarks <= 70) {
+else if (totalMarks >= 70){
     console.log("Grade C");
 }
+
 //logical operators
 let isStudent1 = true;
 let isEmployed = false;
