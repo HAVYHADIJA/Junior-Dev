@@ -37,16 +37,17 @@ function greet(name) {
 greet("Havy");
 greet("Nakalyowa");
 //function expression
-function calculateShippingCost(){
-    let totalPrice =19;
+function calculateShippingCost() {
+    let totalPrice = 19;
     if (totalPrice <= 10) {
         shippingCost = 5
     } else if (totalPrice <= 30) {
         shippingCost = 3
-    }else {
+    } else {
         shippingCost = 0
     }
     return shippingCost
+
 }
 
 //operators
@@ -86,7 +87,7 @@ if (totalMarks >= 90) {
 else if (totalMarks >= 80) {
     console.log("Grade B");
 }
-else  (totalMarks <= 70) {
+else (totalMarks <= 70) {
     console.log("Grade C");
 }
 //logical operators
