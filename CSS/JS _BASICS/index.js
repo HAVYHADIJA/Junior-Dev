@@ -97,6 +97,10 @@ let isEmployed = false;
 console.log(isStudent1 && isEmployed); //false //both of them have to be true
 console.log(isStudent1 || isEmployed); //true //one of them has to be true
 
+//Loops
+
+
+
 
 
 
