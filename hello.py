@@ -3,3 +3,8 @@ print("Hello world")
 name = input("What is your name?")
 #say hello to the user
 print("Hello " + name)
+
+# Libraries
+import random
+coin = random.choice(["heads","tails"])
+print("coin")
