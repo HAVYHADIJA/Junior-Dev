@@ -7,10 +7,11 @@
     </title>
     <script>
         function hello() {
-            if (document.querySelector("h1").innerText === "Hello, welcome to my blog!") {
-                document.querySelector("h1").innerText = "Welcome to my blog!";
+            const heading = document.querySelector("h1");
+            if (heading.innerText === "Hello, welcome to my blog!") {
+                heading.innerText = "Welcome to my blog!";
             } else {
-                document.querySelector("h1").innerText = "Hello, welcome to my blog!";
+                heading.innerText = "Hello, welcome to my blog!";
             }
 
         }
