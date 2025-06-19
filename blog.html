@@ -6,19 +6,24 @@
         My blog
     </title>
     <script>
-        function hello(){
-           alert("Welcome to my blog!"); 
+        function hello() {
+            if (document.querySelector("h1").innerText === "Hello, welcome to my blog!") {
+                document.querySelector("h1").innerText = "Welcome to my blog!";
+            } else {
+                document.querySelector("h1").innerText = "Hello, welcome to my blog!";
+            }
+
         }
-        
+
     </script>
 </head>
 
 <body>
     <header>
-        <button onclick="hello()">Click Here!</button>
         <h1>
             Welcome to my blog!
         </h1>
+        <button onclick="hello()">Click Here!</button>
     </header>
     <section>
         <article class="post">
