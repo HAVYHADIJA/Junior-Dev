@@ -16,6 +16,14 @@
 
         }
 
+        document.addEventListener("DOMContentLoaded", function(){
+            document.querySelector("form").onsubmit = function(){
+              const name =  document.querySelector("#name")
+              alert(`Hello ${name.value}, welcome to my blog!`);
+
+            };
+        });
+
     </script>
 </head>
 
@@ -24,7 +32,11 @@
         <h1>
             Welcome to my blog!
         </h1>
-        <button onclick="hello()">Click Here!</button>
+        <form >
+            <input autofocus id ="name" placeholder="Name" type ="text">
+            <input type ="submit">
+        </form>
+
     </header>
     <section>
         <article class="post">
