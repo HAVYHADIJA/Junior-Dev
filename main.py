@@ -62,3 +62,7 @@ course.add_student(s2)
 course.add_student(s3)  # This will not be added since the max_students is
 print(course.students[0].name) 
 print(course.get_average_grade()) # Output: Alice
+
+
+
+
