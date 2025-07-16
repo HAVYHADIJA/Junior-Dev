@@ -34,25 +34,23 @@ class Student:
         self.grade = grade
     def get_grade(self):
         return self.grade
-    class Course:
-        def __init__(self, name, max_students):
-            self.name = name
-            self.max_students = max_students
-            self.students = []
-        def  add_student(self, student):
-            if len(self.students) < self.max_students:
-                self.students.append(student)
-                return True
-            return False
-        
-        def get_average_grade(self):
-            value = 0
-            for student in self.students: 
-                value += student.get_grade()
-             return value/ len (self.students)
-        
 
-            
+class Course:
+    def __init__(self, name, max_students):
+        self.name = name
+        self.max_students = max_students
+        self.students = []
+    def add_student(self, student):
+        if len(self.students) < self.max_students:
+            self.students.append(student)
+            return True
+        return False
+
+    def get_average_grade(self):
+        value = 0
+        for student in self.students: 
+            value += student.get_grade()
+        return value / len(self.students)
 
 s1 = Student("Alice", 20, 90)
 s2 = Student("Bob", 22, 85)
@@ -62,4 +60,4 @@ course  = Course("Math", 3)
 course.add_student(s1)
 course.add_student(s2)
 course.add_student(s3)  # This will not be added since the max_students is
-
+print(course.students[0].name)  # Output: Alice
