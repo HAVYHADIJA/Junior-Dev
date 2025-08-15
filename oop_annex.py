@@ -22,5 +22,27 @@ c.show()
 c.speak()
 p.speak()
 
-#super class
+#inheritance
+class Parent:
+    hair_color = "black"
+class Child(Parent):
+    hair_color = "brown"  #overriding the parent class attribute
+
+class Person:
+    speaks = "English"  # class attribute
+class Student(Person):
+    def __init__(self):
+        super().__init__()
+        self.speaks.append("German") #extending the class attribute
+
+
+
+
+
+
+
+
+
+        
+    
 
